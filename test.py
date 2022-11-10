@@ -43,7 +43,7 @@ class TestLoginELKWeb:
         self.user_mail = "igobedasvili@gmail.com"
         self.user_login = "Jotela8805"
         self.user_ls = "Jotela8805"
-        self.password = "ipa3nZ@yw4@jEZn"
+        self.password = "ipa3nZ@yw4@jEZX"
 
         self.name_valid = 'Яя'
         self.name_invalid = 'Test'
