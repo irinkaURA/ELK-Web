@@ -188,7 +188,7 @@ class TestLoginELKWeb:
         # time.sleep(2)
 
     def test_login_by_login_invalid(self):
-        """Проверяем, что вход в личный кабинет не выполняется при вводе валидного логина и пароля"""
+        """Проверяем, что вход в личный кабинет не выполняется при вводе невалидного логина и пароля"""
         self.open()
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//button[@id='kc-login']")))
@@ -196,7 +196,7 @@ class TestLoginELKWeb:
         # time.sleep(2)
 
     def test_login_by_ls_invalid(self):
-        """Проверяем, что вход в личный кабинет не выполняется при вводе валидного лицевого счета и пароля"""
+        """Проверяем, что вход в личный кабинет не выполняется при вводе невалидного лицевого счета и пароля"""
         self.open()
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//button[@id='kc-login']")))
